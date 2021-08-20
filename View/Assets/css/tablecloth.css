@@ -1,0 +1,138 @@
+/*
+
+	TableCloth
+	by Alen Grakalic, brought to you by cssglobe.com
+
+*/
+
+/* general styles */
+header{
+  width: 60%;
+  margin: auto;
+  align-items: center;
+}
+header img{
+  width: 100%;
+  margin-left: auto;
+  margin-top: 0px;
+
+}
+
+@media screen and (max-width: 950px){
+    header img{
+        width:100%;
+        height:auto;
+    }
+}
+
+body {
+
+  background: rgba(143,2,34,1);
+background: -moz-linear-gradient(left, rgba(143,2,34,1) 0%, rgba(169,3,41,1) 0%, rgba(109,0,25,1) 0%, rgba(109,0,25,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(143,2,34,1)), color-stop(0%, rgba(169,3,41,1)), color-stop(0%, rgba(109,0,25,1)), color-stop(100%, rgba(109,0,25,1)));
+background: -webkit-linear-gradient(left, rgba(143,2,34,1) 0%, rgba(169,3,41,1) 0%, rgba(109,0,25,1) 0%, rgba(109,0,25,1) 100%);
+background: -o-linear-gradient(left, rgba(143,2,34,1) 0%, rgba(169,3,41,1) 0%, rgba(109,0,25,1) 0%, rgba(109,0,25,1) 100%);
+background: -ms-linear-gradient(left, rgba(143,2,34,1) 0%, rgba(169,3,41,1) 0%, rgba(109,0,25,1) 0%, rgba(109,0,25,1) 100%);
+background: linear-gradient(to right, rgba(143,2,34,1) 0%, rgba(169,3,41,1) 0%, rgba(109,0,25,1) 0%, rgba(109,0,25,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f0222', endColorstr='#6d0019', GradientType=1 );
+
+
+  color: #606468;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-size: 0.875rem;
+  background-size: 700vw 100vh;
+  width: 100%;
+  font-weight: 400px;
+  height: 100%;
+  line-height: 1.5;
+  margin: auto;
+  min-height: 100%;
+}
+table{
+  border-spacing: inherit;
+  width: 100%
+}
+
+table td{
+  padding: 3px;
+}
+
+th{
+  padding: 5px;
+  background-color: #D03D3D;
+  color:white;
+}
+
+tr{
+  background-color: white ;
+  color: black;
+}
+
+tr:hover{
+  background-color: #D4D1FF;
+}
+
+div#main{
+  margin: auto;
+  margin-top: 10px;
+  width: 100%;
+  height: 120px;
+  background-color: white;
+}
+
+div#pdf{
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  float:left;
+}
+
+div#twitter{
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  margin-right: 60px;
+  float:right;
+}
+
+div#facebook{
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  float:right;
+}
+
+
+button#botonpdf{
+  margin-left: 20px;
+  background-color:white;
+  color:red;
+  border:0;
+  cursor: pointer;
+  outline: none;
+}
+
+button#botontwitter{
+  background-color:white;
+  color:#00C1FF;
+  border:0;
+  cursor: pointer;
+  outline: none;
+}
+
+button#botonfacebook{
+  background-color:white;
+  color:#01149C;
+  border:0;
+  cursor: pointer;
+  outline: none;
+}
+
+p#soporte{
+  color: black;
+  padding-top: 90px;
+  padding-right: 20px;
+  text-align: right;
+}
